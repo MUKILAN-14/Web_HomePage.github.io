@@ -225,8 +225,8 @@ h2{
 * {
    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
 }
-@media (min-width:320px) {.container{width:100%;}}
-@media (min-width:481px) {.container{width:100%;}}
-@media (min-width:641px) {.container{width:100%;}}
-@media (min-width:961px) {.container{width:100%;}}
-@media (min-width:1000px) {.container{width:100%;}}
+@media (min-width:320px) {.container{width:auto;}}
+@media (min-width:481px) {.container{width:auto;}}
+@media (min-width:641px) {.container{width:auto;}}
+@media (min-width:961px) {.container{width:auto;}}
+@media (min-width:1000px) {.container{width:auto;}}
