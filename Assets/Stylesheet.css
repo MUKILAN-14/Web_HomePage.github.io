@@ -1,0 +1,227 @@
+/*HEADER*/
+#Header1{
+   box-shadow: 0vmax 0.5vmax 3vmax 1vmax rgb(52, 36, 23);
+   border-radius:2vmax;
+   background-image: url('/Web_Development/Assets/image/Background.png');
+   background-size: 100% 100%;
+   text-align: center;
+}
+.header2{
+   border-radius: 2vmax;
+   background-color:rgba(0, 0, 0, 0.4);
+}
+.header3{
+   border-radius: 2vmax;
+   background-color:rgba(0, 0, 0, 0.4);
+}
+#logo{ 
+   margin-left: 25%; 
+   margin-right: 25%; 
+   height: 30vmax;
+   width: 30vmax;
+}
+#searchbar form{
+   display: flex;
+   padding-bottom: 5%;
+}
+form input{
+   float: left;
+   box-shadow:1vmax 0.5vmax 2vmax  black;
+   background-color: rgb(196, 167, 114);
+}
+input{
+   border-top-left-radius: 50vmax;
+   border-bottom-right-radius: 50vmax;
+   text-align: center;
+   font-size: 1.2vmax;
+   height: 50%;
+   width: 100%;
+}
+button{
+   box-shadow:1vmax 0.5vmax 2vmax  black ;
+   margin-left: 2%;
+   border-radius: 5vmax;
+   background-color:#503a2f ;
+}
+#icon img{
+   height: 1.5vmax;
+   width: 1.5vmax;
+}
+ul img{
+   height: 1.7vmax;
+   width: 1.7vmax;
+}
+
+#searchbar{
+   margin-left: 20%;
+   margin-right: 20%;  
+}
+#searchbar ::placeholder{
+   color: #836150;
+}
+
+ul{
+   list-style-type:none;
+}
+nav{
+   list-style-type:none;
+}
+
+li a{
+   margin-left: none;
+   margin-top: 1.5vmax;
+   margin-right: 3.5vmax;
+   font-size: 1.8vmax;
+   text-decoration: none;
+   color: rgb(196, 167, 114);
+   float:left;
+}
+/*BODY PART*/
+#ff{
+   font-style: italic;
+   color: #503a2f;
+   text-align: center;
+   margin-top: 2vmax;
+   margin-bottom: 5vmax;
+   overflow-x: auto;
+   white-space: nowrap;
+}
+.products{
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(196, 167, 114));
+   background-size: 100% 100%;
+   max-width: 100%;
+   height: auto;
+   padding: 2vmax;
+   margin-right: 3vmax;
+   display:inline-block;
+   border-radius: 5vmax;
+   
+}
+.products img{
+   height:17vmax;
+   width:29vmax;
+   border-radius: 2vmax;
+  
+}
+
+
+.bodypart2 img{
+   padding: 1%;
+   margin: 1%;
+   margin-right: 1vmax;
+   height: 16vmax;
+   width: 26vmax;
+   
+}
+.bodypart{
+   margin-top: 3vmax;
+   margin-left: 8vmax;
+   margin-right: 8vmax;
+   text-align: center;
+   padding-top: 1vmax;
+   padding-bottom: 0.2vmax
+}
+h1{
+   
+   font-weight:lighter;
+   font-size: 2vmax;
+   color: #000000;
+   text-shadow: 2px 2px 3px #7b7774;
+}
+h2{
+   text-shadow: 2px 2px 3px #daa88f; 
+   font-weight: bolder;
+   text-align: center;
+   color: #503a2f;
+}
+.bodypart1{
+   margin-top: 1vmax;
+   border-radius: 2vmax;
+   background-color: #746661;
+}
+#middle{
+   color: white;
+   text-align: center;
+   margin-top: 2vmax;
+   margin-bottom: 5vmax;
+   background-image: url('/Web_Development/Assets/image/image.png');
+   background-size: 100% 100%;
+}
+#middle img{
+   height: 15vmax;
+   width: 15vmax;
+   margin-left: 25%;
+   margin-right:25%;
+   margin-bottom: 5%;
+   
+}
+#middle p{
+   font-style: italic;
+   padding-top: 5vmax;
+   margin: 5vmax;
+   margin-left: 10vmax;
+   margin-right: 10vmax;
+}
+.bodypart2{
+   font-style: italic;
+   width: 100%;
+   padding-top: 4vmax;
+   padding-bottom: 4vmax;
+   text-align: center;
+   margin-top: 1vmax;
+   margin-bottom: 3vmax;
+   border-radius: 2vmax;
+   
+}
+.bodypart2 div{
+   background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(196, 167, 114));
+   border-top-left-radius: 3vmax;
+   border-bottom-right-radius: 3vmax;
+   margin:1vmax;
+   padding:1vmax;
+   display: inline-block;
+   box-shadow: 0vmax 0.5vmax 3vmax 1vmax rgb(52, 36, 23);
+}
+
+/*FOOTER*/
+#footer{
+   padding-top: 3vmax;
+   padding-bottom: 3vmax;
+   font-size: 1.5vmax;
+   text-align:center;
+   color: aliceblue;
+   margin-top: 1vmax;
+   background-color: black;
+   max-width: 100%; 
+   overflow-x: hidden;
+   
+}
+#footer h{
+   list-style-type: none;
+   font-weight:bolder;
+   color: rgb(196, 167, 114);
+   text-align:center;
+   
+}
+.footercontent{
+   text-align: center;
+   float: left;
+   line-height: 2vmax;
+   margin: 1.2vmax;
+}
+/*ADDITIONAL ALLIGNMENTS*/
+.container{
+   margin-left: 2%;
+   margin-right: 2%;
+   font-size: 1.5vmax;
+   overflow-x: hidden;
+}
+::-webkit-scrollbar {
+   display: none; /* Hide scrollbar for webkit (Chrome, Safari) */
+}
+* {
+   scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+* {
+   -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+}
