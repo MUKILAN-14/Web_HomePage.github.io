@@ -225,6 +225,7 @@ h2{
 * {
    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
 }
+@media (min-width:768px) {.container{width:auto;}}
 @media (min-width:320px) {.container{width:auto;}}
 @media (min-width:481px) {.container{width:auto;}}
 @media (min-width:641px) {.container{width:auto;}}
