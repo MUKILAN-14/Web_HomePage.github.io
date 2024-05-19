@@ -2,7 +2,7 @@
 #Header1{
    box-shadow: 0vmax 0.5vmax 3vmax 1vmax rgb(52, 36, 23);
    border-radius:2vmax;
-   background-image: url('/Web_Development/Assets/image/Background.png');
+   background-image: url('/Assets/image/Background.png');
    background-size: 100% 100%;
    text-align: center;
 }
@@ -144,7 +144,7 @@ h2{
    text-align: center;
    margin-top: 2vmax;
    margin-bottom: 5vmax;
-   background-image: url('/Web_Development/Assets/image/image.png');
+   background-image: url('/Assets/image/image.png');
    background-size: 100% 100%;
 }
 #middle img{
