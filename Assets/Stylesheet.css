@@ -48,8 +48,8 @@ button{
    width: 1.5vmax;
 }
 ul img{
-   height: 1.7vmax;
-   width: 1.7vmax;
+   height: 1.5vmax;
+   width: 1.5vmax;
 }
 
 #searchbar{
@@ -70,8 +70,8 @@ nav{
 li a{
    margin-left: none;
    margin-top: 1.5vmax;
-   margin-right: 3.5vmax;
-   font-size: 1.8vmax;
+   margin-right: 2vmax;
+   font-size: 1.6vmax;
    text-decoration: none;
    color: rgb(196, 167, 114);
    float:left;
