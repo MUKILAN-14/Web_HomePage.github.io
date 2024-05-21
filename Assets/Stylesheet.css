@@ -1,7 +1,7 @@
 /*HEADER*/
 #Header1{
    box-shadow: 0vmax 0.5vmax 3vmax 1vmax rgb(52, 36, 23);
-   background-image: url('/Assets/image/Background.png');
+   background-image: url('/Assets/image/Product1.png');
    border-radius:2vmax;
    background-size: 100% 100%;
    text-align: center;
@@ -16,7 +16,7 @@
 }
 #logo{ 
    margin-left: 25%; 
-   margin-right: 25%; 
+   margin-right: 30%; 
    height: 24vmax;
    width: 24vmax;
 }
