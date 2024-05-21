@@ -95,14 +95,15 @@ li a{
    padding-left: 3vmax;
    padding-right: 3vmax;
    margin-right: 4vmax;
-   margin-left: 4vmax;
+   margin-left: 4.5vmax;
    display:inline-block;
    border-radius: 5vmax;
    
 }
 .products img{
+   
    height:17vmax;
-   width:29vmax;
+   width:30vmax;
    border-radius: 2vmax;
   
 }
